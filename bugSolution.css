@@ -1,0 +1,23 @@
+/* bugSolution.css */
+
+/* Use vendor prefixes for broader compatibility */
+.blurred-element {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -ms-filter: blur(5px);
+  -o-filter: blur(5px);
+}
+
+/* Consider using a fallback if blurring is not fully supported */
+.blurred-element {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -ms-filter: blur(5px);
+  -o-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.2); /* Fallback for older browsers */
+}
+
+/* For more complex scenarios, a JavaScript fallback may be needed */
+/* ... (JavaScript code for blurring as a fallback) ... */
